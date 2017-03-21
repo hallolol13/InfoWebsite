@@ -1,11 +1,12 @@
   /*background-color: #969499*/
 .active {
     color: white;
+    background-color: #2b1a31;
 }
 
 body {
     font-family: "Helvetica", sans-serif;
-    text-align: justify;
+    text-align: justify
 }
 
 html {
@@ -13,9 +14,10 @@ html {
 }
 
 .mains {
+    background-color: 0x1c2332;
     font-family: "Times New Roman", sans-serif;
     margin: 0px;
-    padding: 200px 330px 
+    padding: 200px 330px;
 }
 
 .fixed-nav-bar {
@@ -60,6 +62,13 @@ li a, .dropbtn {
     text-align: center;
     padding: 16px 16px;  /* prev. 14px 16px */
     text-decoration: none;
+}
+
+.active:hover {
+  background-color: #403045;
+    color: white;
+    -moz-transition: background-color 0.6s;
+    transition-duration: 0.6s;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
